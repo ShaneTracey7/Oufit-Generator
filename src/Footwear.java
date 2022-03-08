@@ -93,18 +93,16 @@ public static ArrayList<Footwear> footwears = new ArrayList<Footwear>(); // all 
 		
 	}
 	
-	//called when program begins. Creates all instances of Bottom
+	//called when program begins. Creates all instances of Footwear
+	//1 example of how this method works(should be many instances created)
 	public static void makeFootwear()
 	{
 		
 		//URLS
 		URL c1 = Top.class.getResource("/cf1-2.png");
-		URL c2 = Top.class.getResource("/cf2-2.png");
 		
 		// class objs
-		
 		footwears.add(new Footwear("nike af1s","white","Nike","Casual",c1));
-		footwears.add(new Footwear("Winter boots","tan","McKinley","WinterBoots",c2));
 	}
 	
 	//name of shoe is important
