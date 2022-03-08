@@ -99,29 +99,15 @@ public class Headwear extends Clothing_article{
 		
 	}
 	
-	//called when program begins. Creates all instances of Bottom
+	//called when program begins. Creates all instances of Headwear
+	//1 example of how this method works(should be many instances created)
 	public static void makeHeadwear()
 	{
-		
 		//URLS
 		URL h1 = Top.class.getResource("/ch1.png");
-		URL h2 = Top.class.getResource("/ch2.png");
-		URL h2_2 = Top.class.getResource("/ch2-2.png");
-		URL h3 = Top.class.getResource("/ch3.png");
-		URL h4 = Top.class.getResource("/ch4.png");
-		URL h5 = Top.class.getResource("/ch5.png");
-		URL h6 = Top.class.getResource("/ch6.png");
-		// class objs
-		//headwear.add(new Headwear("LA Dodgers hat","blue","47 Brand","DadHat"));
-		//headwear.add(new Headwear("UWin Toque","blue","Adidas","Toque"));
-		//headwear.add(new Headwear("Maple Leafs Toque","blue","Reebok","Toque"));
 		
+		// class objs
 		headwear.add(new Headwear("UWin Hat","blue","The Game","FittedHat",h1));
-		headwear.add(new Headwear("Maple Leafs Hat ","gray","Fanatics","Snapback",h2, h2_2));
-		headwear.add(new Headwear("Titleist Golf Hat","gray","Titleist","GolfHat",h3));
-		headwear.add(new Headwear("UA Golf Hat","white","Under Armour","GolfHat",h4));
-		headwear.add(new Headwear("Essex DBacks Hat","black","New Era","FittedHat",h5));
-		headwear.add(new Headwear("Windsor Championship","gray","The Game","GolfHat",h6));
 	}
 	
 	//name of hat is important
