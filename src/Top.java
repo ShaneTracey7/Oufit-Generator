@@ -221,58 +221,16 @@ public class Top extends Clothing_article {
 	}
 	*/
 	
-	//for testing
+	//creates all instances of Top
+	//1 example of how this method works(should be many instances created)
 	public static void makeTops()
 	{
-		/*
-		tops.add(new Top("current shirt","teal","nike","T-Shirt",4,1));
-		tops.add(new Top("costco grey shirt","grey","costco","T-Shirt",4,1));
-		tops.add(new Top("costco blue shirt","blue","costco","T-Shirt",4,1));
-		tops.add(new Top("bday shirt","burgundy","nike","T-Shirt",4,1));
-		tops.add(new Top("uni flannel","blue plaid","american eagle","Flannel",4,1));
-		tops.add(new Top("fav flannel","burgundy plaid","sonamo","Flannel",4,1));
-		tops.add(new Top("new flannel","grey plaid","old navy","Flannel",4,1));
-		tops.add(new Top("lost hoodie","burgundy","adidas","Hoodie",4,1));
-		tops.add(new Top("swole hoodie","grey","under armour","Hoodie",4,1));
-		tops.add(new Top("Ski coat","blue","columbia","Coat",4,1));
-		tops.add(new Top("Style coat","green","mckinley","Coat",4,1));
-		tops.add(new Top("Ambo work jacket","black","not sure","Jacket",4,1));
-		tops.add(new Top("white long sleeve","white","rough dress","Long-Sleeve",4,1));
-		*/
 		//URLS
-		
-		
 		URL t1 = Top.class.getResource("/ct1.png");
-		URL t2 = Top.class.getResource("/ct2.png");
-		URL t3 = Top.class.getResource("/ct3.png");
-		URL t4 = Top.class.getResource("/ct4.png");
-		URL t4_2 = Top.class.getResource("/ct4-2.png");
 		
-		URL t6 = Top.class.getResource("/ct6.png");
-		URL t7 = Top.class.getResource("/ct7.png");
-		
-		URL t9 = Top.class.getResource("/ct9.png");
-		URL t10 = Top.class.getResource("/ct10.png");
-		
-		
-		
+		// class objs
 		tops.add(new Top("bbno$","black","gilden","T-Shirt",t1,1));
-		tops.add(new Top("blue 2 button shirt","light blue","costco","T-Shirt", t2, 1));
-		tops.add(new Top("bday shirt","burgundy","nike","T-Shirt", t3, 1));
-		tops.add(new Top("fav flannel","burgundy plaid","sonamo","Flannel",t4,t4_2, 1));
-		tops.add(new Top("black jean jacket","black","old navy","Jacket", t6,1));
-		tops.add(new Top("sherpa light jean jacket","light blue","old navy","Jacket", t7,1));
-		
-		tops.add(new Top("green gymshark hoodie","green","GymShark","Hoodie", t9,1));
-		tops.add(new Top("black long sleeve","black","rough dress","Long-Sleeve", t10, 1));
-		
-		
 	}
-	
-	
-	
-	
-	
 	
 	
 }
