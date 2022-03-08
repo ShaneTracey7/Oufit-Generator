@@ -90,24 +90,15 @@ public class Accessory extends Clothing_article {
 		
 	}
 	
-	//called when program begins. Creates all instances of Bottom
+	//called when program begins. Creates all instances of Accessory
+	//1 example of how this method works(should be many instances created)
 	public static void makeAccessory()
 	{
 		
 		//URLS
 		URL a1 = Top.class.getResource("/ca1.png");
-		URL a2 = Top.class.getResource("/ca2.png");
-		URL a3 = Top.class.getResource("/ca3.png");
-		URL a4 = Top.class.getResource("/ca4.png");
-		URL a5 = Top.class.getResource("/ca5.png");
-		// class objs
-		//accessory.add(new Accessory("Apple watch","black","Apple","Watch"));
 		
 		accessory.add(new Accessory("White Cloth Belt","white","Unknown","Belt",a1));
-		accessory.add(new Accessory("Go-to Brown Belt","brown","Levi's","Belt",a2));
-		accessory.add(new Accessory("Brown Prom Dress Belt","brown","Unknown","Belt",a3));
-		accessory.add(new Accessory("Knock Off Ray-Ban's","grey","Walmart","Sunglasses",a4));
-		accessory.add(new Accessory("Black Costco Belt","black","Columnbia","Belt",a5));
 	}
 	
 	//name of hat is important
